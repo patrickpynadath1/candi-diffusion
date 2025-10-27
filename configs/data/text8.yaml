@@ -1,0 +1,6 @@
+train: text8
+valid: text8
+tokenizer_name_or_path: text8
+cache_dir: /home/patrick/.cache/discrete_diffusion/text8
+wrap: True
+streaming: False

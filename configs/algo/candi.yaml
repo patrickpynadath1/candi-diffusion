@@ -1,0 +1,19 @@
+name: candi
+backbone: cont_dit
+causal_attention: False
+parameterization: mean
+T: 0 # continuous time  
+discretize_start_time: 1.0
+time_conditioning: true
+step_size: 1.0
+mixed_coeff: 0.5
+max_percentile: .25
+min_percentile: .01
+  
+sigma_min: .01
+sigma_max: 2.0
+temp: 1.0
+pure_continuous: False
+sampler: cached
+is_embed: False 
+use_percentile_scheduling: True # only affects inference schedule
